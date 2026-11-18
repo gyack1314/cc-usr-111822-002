@@ -1,0 +1,269 @@
+{
+  "known_at": "2026-10-12T00:00:00+08:00",
+  "scheduling_known_at": "2026-10-10T00:00:00+08:00",
+  "documents": [
+    {
+      "kind": "shift",
+      "id": "day-07",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "robots": ["R1", "R2"],
+        "start": "2026-10-07T08:00:00+08:00",
+        "end": "2026-10-07T16:00:00+08:00"
+      }
+    },
+    {
+      "kind": "shift",
+      "id": "day-08",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "robots": ["R1", "R2"],
+        "start": "2026-10-08T08:00:00+08:00",
+        "end": "2026-10-08T16:00:00+08:00"
+      }
+    },
+    {
+      "kind": "shift",
+      "id": "day-09",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "robots": ["R1"],
+        "start": "2026-10-09T08:00:00+08:00",
+        "end": "2026-10-09T16:00:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-101",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R1", "station": "S1",
+        "task": "assembly", "difficulty": "B",
+        "minutes": 230, "units": 40,
+        "started_at": "2026-10-07T08:05:00+08:00",
+        "ended_at": "2026-10-07T11:55:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-102",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R1", "station": "S1",
+        "task": "assembly", "difficulty": "B",
+        "minutes": 150, "units": 20,
+        "started_at": "2026-10-07T13:00:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-103",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R2", "station": "S2",
+        "task": "packaging", "difficulty": "A",
+        "minutes": 230, "units": 60,
+        "started_at": "2026-10-07T08:10:00+08:00",
+        "ended_at": "2026-10-07T12:00:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-104",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R2", "station": "S2",
+        "task": "packaging", "difficulty": "A",
+        "minutes": 200, "units": 55,
+        "started_at": "2026-10-07T12:30:00+08:00",
+        "ended_at": "2026-10-07T15:50:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-105",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R2", "station": "S2",
+        "task": "welding",
+        "minutes": 30, "units": 8,
+        "started_at": "2026-10-07T15:40:00+08:00",
+        "ended_at": "2026-10-07T16:10:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-106",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-08", "robot": "R1", "station": "S1",
+        "task": "assembly", "difficulty": "B",
+        "minutes": 240, "units": 38,
+        "started_at": "2026-10-08T08:10:00+08:00",
+        "ended_at": "2026-10-08T12:10:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-107",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-08", "robot": "R1", "station": "S1",
+        "task": "welding", "difficulty": "C",
+        "minutes": 150, "units": 18,
+        "started_at": "2026-10-08T13:00:00+08:00",
+        "ended_at": "2026-10-08T15:30:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-108",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-08", "robot": "R2", "station": "S2",
+        "task": "packaging", "difficulty": "A",
+        "minutes": 300, "units": 70
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-109",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-09", "robot": "R1", "station": "S1",
+        "task": "assembly", "difficulty": "B",
+        "minutes": 220, "units": 30,
+        "started_at": "2026-10-09T08:10:00+08:00",
+        "ended_at": "2026-10-09T11:50:00+08:00"
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-201",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-08", "robot": "R1", "minutes": 90
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-202",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R2", "minutes": 30
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-205",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "robot": "R1", "minutes": 30,
+        "started_at": "2026-10-09T12:00:00+08:00",
+        "ended_at": "2026-10-09T12:30:00+08:00"
+      }
+    },
+    {
+      "kind": "wait",
+      "id": "w-301",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "station": "S1",
+        "started_at": "2026-10-07T10:00:00+08:00",
+        "ended_at": "2026-10-07T10:20:00+08:00"
+      }
+    },
+    {
+      "kind": "wait",
+      "id": "w-302",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "station": "S2",
+        "started_at": "2026-10-08T09:00:00+08:00",
+        "ended_at": "2026-10-08T09:15:00+08:00"
+      }
+    },
+    {
+      "kind": "takeover",
+      "id": "t-401",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "job": "j-101", "minutes": 12,
+        "started_at": "2026-10-07T09:30:00+08:00"
+      }
+    },
+    {
+      "kind": "takeover",
+      "id": "t-402",
+      "revision": "r1",
+      "received_at": "2026-10-09T18:00:00+08:00",
+      "payload": {
+        "job": "j-103", "minutes": 10
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-201",
+      "revision": "r2",
+      "received_at": "2026-10-11T09:00:00+08:00",
+      "payload": {
+        "robot": "R1", "minutes": 90,
+        "started_at": "2026-10-07T14:30:00+08:00",
+        "ended_at": "2026-10-07T16:00:00+08:00"
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-203",
+      "revision": "r1",
+      "received_at": "2026-10-11T09:00:00+08:00",
+      "payload": {
+        "robot": "R1", "minutes": 20,
+        "started_at": "2026-10-08T11:00:00+08:00",
+        "ended_at": "2026-10-08T11:20:00+08:00"
+      }
+    },
+    {
+      "kind": "charge",
+      "id": "c-204",
+      "revision": "r1",
+      "received_at": "2026-10-11T09:00:00+08:00",
+      "payload": {
+        "robot": "R1", "minutes": 15,
+        "started_at": "2026-10-08T15:50:00+08:00",
+        "ended_at": "2026-10-08T16:05:00+08:00"
+      }
+    },
+    {
+      "kind": "job",
+      "id": "j-102",
+      "revision": "r2",
+      "received_at": "2026-10-11T09:00:00+08:00",
+      "payload": {
+        "shift": "day-07", "robot": "R1", "station": "S1",
+        "task": "assembly", "difficulty": "B",
+        "minutes": 150, "units": 20,
+        "started_at": "2026-10-07T13:00:00+08:00",
+        "ended_at": "2026-10-07T15:40:00+08:00"
+      }
+    }
+  ]
+}
